@@ -147,12 +147,7 @@ if __name__ == "__main__":
 
     # Define function update_fig() for use with matplotlib.pyplot.FuncAnimation().
     # To track the number of operations, i.e., iterations through which the
-    # animation has gone, define a variable "iteration". This variable will
-    # be passed to update_fig() to update the text label, and will also be
-    # incremented in update_fig(). For this increment to be reflected outside
-    # the function, we make "iteration" a list of 1 element, since lists (and
-    # other mutable objects) are passed by reference (but an integer would be
-    # passed by value).
+    # animation has gone, define a variable "iteration".
     # NOTE: Alternatively, iteration could be re-declared within update_fig()
     # with the "global" keyword (or "nonlocal" keyword).
     iteration = [0]
